@@ -112,7 +112,7 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-//#define SERIAL_PORT_2 -1
+#define SERIAL_PORT_2 0
 
 /**
  * This setting determines the communication speed of the printer.
@@ -135,7 +135,7 @@
 
 // Name displayed in the LCD "Ready" message and Info menu
 // #define CUSTOM_MACHINE_NAME "ENDER5 v0.13"
-#define CUSTOM_MACHINE_NAME "ENDER5 V0.16"
+#define CUSTOM_MACHINE_NAME "ENDER5 V1.0"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
