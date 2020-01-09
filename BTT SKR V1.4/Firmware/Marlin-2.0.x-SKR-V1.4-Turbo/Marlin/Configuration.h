@@ -134,7 +134,8 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "ENDER5 v0.13"
+// #define CUSTOM_MACHINE_NAME "ENDER5 v0.13"
+#define CUSTOM_MACHINE_NAME "ENDER5 V0.16"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -476,9 +477,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 26.57
-  #define DEFAULT_Ki 2.17
-  #define DEFAULT_Kd 81.15
+  #define DEFAULT_Kp 23.69
+  #define DEFAULT_Ki 1.87
+  #define DEFAULT_Kd 75.10
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -930,7 +931,7 @@
 #define NOZZLE_TO_PROBE_OFFSET { -63, -10, 0 }
 
 // Certain types of probes need to stay away from edges
-#define MIN_PROBE_EDGE 30
+#define MIN_PROBE_EDGE 5
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 8000
@@ -975,8 +976,8 @@
 #define Z_PROBE_LOW_POINT          -2 // Farthest distance below the trigger-point to go before stopping
 
 // For M851 give a range for adjusting the Z probe offset
-#define Z_PROBE_OFFSET_RANGE_MIN -20
-#define Z_PROBE_OFFSET_RANGE_MAX 20
+#define Z_PROBE_OFFSET_RANGE_MIN -5
+#define Z_PROBE_OFFSET_RANGE_MAX 1
 
 // Enable the M48 repeatability test to test probe accuracy
 //#define Z_MIN_PROBE_REPEATABILITY_TEST
